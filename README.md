@@ -68,5 +68,14 @@ Set the lowest two strike prices of interest in B3 and B4
 Columns F through I show the cost to buy the BCS that has the owned leg at the given strike price and the written leg $5 through $20 above that.
 Columns K through N show the profit if the price at expiration is above the upper leg.
 
+Buy Calls ABC
+-------------
+Helps choose which call to buy if you expect a given price at expiration with a given probability.
+Choose ticker, expiration, and the first two strike prices of interest.
+Choose the first two expiration prices in F1 and G1.
+It gives you the gain/loss for each strike price and expiration price.
+You can choose an expected expiration price and standard deviation.
+This feeds back to column C, with an expected value given a $100 investment.
+
 by David K. McAllister
 Released under MIT License.
